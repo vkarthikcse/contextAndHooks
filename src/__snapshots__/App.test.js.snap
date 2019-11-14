@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="form-header"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <div>
+        <label
+          className="course-name"
+          htmlFor="coursename"
+        >
+          Course name
+        </label>
+        <input
+          id="coursename"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <div>
+        <label
+          className="course-id"
+          htmlFor="courseid"
+        >
+          Course id
+        </label>
+        <input
+          id="courseid"
+          onChange={[Function]}
+          type="number"
+          value={0}
+        />
+      </div>
+      <div>
+        <button
+          type="submit"
+        >
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;
